@@ -11,212 +11,247 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <a class="header-logo link" href="./index.html" lang="en">
-        <span class="header-logo-part">Web</span>Studio</a
-      >
-      <nav class="header-navigation">
-        <ul class="header-list list">
-          <li class="header-item">
-            <a class="header-link link" href="./index.html">Студія</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link current" href="./portfolio.html"
-              >Портфоліо</a
-            >
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="#">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a class="header-mail link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+      <div class="container header-cont">
+        <nav class="header-navigation">
+          <a class="header-logo link" href="./index.html" lang="en">
+            <span class="header-logo-part">Web</span>Studio</a
           >
-        </li>
-        <li>
-          <a class="header-tel link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
-    </header>
-    <main>
-      <section class="hero">
-        <h1 class="visually-hidden">Фільтр розділів</h1>
-        <ul class="list">
-          <li>
-            <button class="hero-btn pointer current-btn" type="button">
-              Усі
-            </button>
-          </li>
-          <li>
-            <button class="hero-btn pointer" type="button">Веб-сайти</button>
-          </li>
-          <li>
-            <button class="hero-btn pointer" type="button">Додатки</button>
-          </li>
-          <li>
-            <button class="hero-btn pointer" type="button">Дизайн</button>
-          </li>
-          <li>
-            <button class="hero-btn pointer" type="button">Маркетинг</button>
-          </li>
-        </ul>
-
-        <ul class="list">
-          <li class="hero-link">
-            <a href="#" class="link"
-              ><img
-                src="./images/img_portfolio_1.jpg"
-                alt="Сайт з людьми"
-                width="370"
-                height="294"
-              />
-              <h2 class="hero-title">Технокряк</h2>
-              <p class="hero-prof">Веб-сайт</p>
-            </a>
-          </li>
-
-          <li class="hero-link">
-            <a href="#" class="link"
-              ><img
-                src="./images/img_portfolio_2.jpg"
-                alt="Баскетболісти"
-                width="370"
-                height="294"
-              />
-              <h2 class="hero-title">Постер New Orlean vs Golden Star</h2>
-              <p class="hero-prof">Дизайн</p>
-            </a>
-          </li>
-
-          <li class="hero-link">
-            <a href="#" class="link"
-              ><img
-                src="./images/img_portfolio_3.jpg"
-                alt="Рибний ресторан"
-                width="370"
-                height="294"
-              />
-              <h2 class="hero-title">Ресторан Seafood</h2>
-              <p class="hero-prof">Додаток</p>
-            </a>
-          </li>
-
-          <li class="hero-link">
-            <a href="#" class="link"
-              ><img
-                src="./images/img_portfolio_4.jpg"
-                alt="Навушники"
-                width="370"
-                height="294"
-              />
-              <h2 class="hero-title">Проєкт Prime</h2>
-              <p class="hero-prof">Маркетинг</p>
-            </a>
-          </li>
-
-          <li class="hero-link">
-            <a href="#" class="link"
-              ><img
-                src="./images/img_portfolio_5.jpg"
-                alt="Коробки"
-                width="370"
-                height="294"
-              />
-              <h2 class="hero-title">Проєкт Boxes</h2>
-              <p class="hero-prof">Додаток</p>
-            </a>
-          </li>
-
-          <li class="hero-link">
-            <a href="#" class="link"
-              ><img
-                src="./images/img_portfolio_6.jpg"
-                alt="Єкран монітору"
-                width="370"
-                height="294"
-              />
-              <h2 class="hero-title" lang="en">Inspiration has no Borders</h2>
-              <p class="hero-prof">Веб-сайт</p>
-            </a>
-          </li>
-
-          <li class="hero-link">
-            <a href="#" class="link"
-              ><img
-                src="./images/img_portfolio_7.jpg"
-                alt="Книга"
-                width="370"
-                height="294"
-              />
-              <h2 class="hero-title">Видання Limited Edition</h2>
-              <p class="hero-prof">Дизайн</p>
-            </a>
-          </li>
-
-          <li class="hero-link">
-            <a href="#" class="link"
-              ><img
-                src="./images/img_portfolio_8.jpg"
-                alt="Бірка"
-                width="370"
-                height="294"
-              />
-              <h2 class="hero-title">Проєкт LAB</h2>
-              <p class="hero-prof">Маркетинг</p>
-            </a>
-          </li>
-
-          <li class="hero-link">
-            <a href="#" class="link"
-              ><img
-                src="./images/img_portfolio_9.jpg"
-                alt="Працюють за ноутбуком"
-                width="370"
-                height="294"
-              />
-              <h2 class="hero-title" lang="en">Growing Business</h2>
-              <p class="hero-prof">Додаток</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="footer">
-      <a class="footer-logo link" href="./index.html" lang="en">
-        <span class="footer-logo-part">Web</span>Studio</a
-      >
-      <address>
-        <ul class="list">
-          <li>
-            <a
-              class="footer-address link"
-              href="https://goo.gl/maps/BE6YMUcG3WjpmZPy9"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li>
-            <a class="footer-list link" href="mailto:info@devstudio.com"
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Студія</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link current" href="./portfolio.html"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-adress list">
+          <li class="header-adres-list">
+            <a class="header-mail link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-
-          <li>
-            <a class="footer-list link" href="tel:+380961111111"
+          <li class="header-adres-list">
+            <a class="header-tel link" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
-      </address>
+      </div>
+    </header>
+    <main>
+      <section class="hero section">
+        <div class="container">
+          <h1 class="visually-hidden">Фільтр розділів</h1>
+          <ul class="hero-list-btn list">
+            <li>
+              <button class="hero-btn pointer current-btn" type="button">
+                Усі
+              </button>
+            </li>
+            <li>
+              <button class="hero-btn pointer" type="button">Веб-сайти</button>
+            </li>
+            <li>
+              <button class="hero-btn pointer" type="button">Додатки</button>
+            </li>
+            <li>
+              <button class="hero-btn pointer" type="button">Дизайн</button>
+            </li>
+            <li>
+              <button class="hero-btn pointer" type="button">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="hero-list-icn list">
+            <li class="hero-link">
+              <a href="#" class="link"
+                ><img
+                  src="./images/img_portfolio_1.jpg"
+                  alt="Сайт з людьми"
+                  width="370"
+                  height="294"
+                />
+                <div class="hero-about">
+                  <h2 class="hero-title">Технокряк</h2>
+                  <p class="hero-prof">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="hero-link">
+              <a href="#" class="link"
+                ><img
+                  src="./images/img_portfolio_2.jpg"
+                  alt="Баскетболісти"
+                  width="370"
+                  height="294"
+                />
+                <div class="hero-about">
+                  <h2 class="hero-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="hero-prof">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="hero-link">
+              <a href="#" class="link"
+                ><img
+                  src="./images/img_portfolio_3.jpg"
+                  alt="Рибний ресторан"
+                  width="370"
+                  height="294"
+                />
+                <div class="hero-about">
+                  <h2 class="hero-title">Ресторан Seafood</h2>
+                  <p class="hero-prof">Додаток</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="hero-link">
+              <a href="#" class="link"
+                ><img
+                  src="./images/img_portfolio_4.jpg"
+                  alt="Навушники"
+                  width="370"
+                  height="294"
+                />
+                <div class="hero-about">
+                  <h2 class="hero-title">Проєкт Prime</h2>
+                  <p class="hero-prof">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="hero-link">
+              <a href="#" class="link"
+                ><img
+                  src="./images/img_portfolio_5.jpg"
+                  alt="Коробки"
+                  width="370"
+                  height="294"
+                />
+                <div class="hero-about">
+                  <h2 class="hero-title">Проєкт Boxes</h2>
+                  <p class="hero-prof">Додаток</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="hero-link">
+              <a href="#" class="link"
+                ><img
+                  src="./images/img_portfolio_6.jpg"
+                  alt="Єкран монітору"
+                  width="370"
+                  height="294"
+                />
+                <div class="hero-about">
+                  <h2 class="hero-title" lang="en">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="hero-prof">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="hero-link">
+              <a href="#" class="link"
+                ><img
+                  src="./images/img_portfolio_7.jpg"
+                  alt="Книга"
+                  width="370"
+                  height="294"
+                />
+                <div class="hero-about">
+                  <h2 class="hero-title">Видання Limited Edition</h2>
+                  <p class="hero-prof">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="hero-link">
+              <a href="#" class="link"
+                ><img
+                  src="./images/img_portfolio_8.jpg"
+                  alt="Бірка"
+                  width="370"
+                  height="294"
+                />
+                <div class="hero-about">
+                  <h2 class="hero-title">Проєкт LAB</h2>
+                  <p class="hero-prof">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="hero-link">
+              <a href="#" class="link"
+                ><img
+                  src="./images/img_portfolio_9.jpg"
+                  alt="Працюють за ноутбуком"
+                  width="370"
+                  height="294"
+                />
+                <div class="hero-about">
+                  <h2 class="hero-title" lang="en">Growing Business</h2>
+                  <p class="hero-prof">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a class="footer-logo link" href="./index.html" lang="en">
+          <span class="footer-logo-part">Web</span>Studio</a
+        >
+        <address>
+          <ul class="footer-link list">
+            <li>
+              <a
+                class="footer-address link"
+                href="https://goo.gl/maps/BE6YMUcG3WjpmZPy9"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li>
+              <a class="footer-list link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+
+            <li>
+              <a class="footer-list link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
