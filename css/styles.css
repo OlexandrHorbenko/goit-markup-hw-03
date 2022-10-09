@@ -462,7 +462,7 @@ img {
   text-decoration: underline var(--gray-blue);
 }
 
-.hero-prof {
+.hero-p {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
@@ -471,7 +471,7 @@ img {
   margin-top: 4px;
 }
 
-.hero-prof:hover,
-.hero-prof:focus {
-  text-decoration: underline var(--color-box);
+.hero-p:hover,
+.hero-p:focus {
+  text-decoration: underline var(--gray-blue);
 }
