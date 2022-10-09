@@ -466,5 +466,5 @@ img {
 
 .hero-prof:hover,
 .hero-prof:focus {
-  text-decoration: underline var(--gray-blue);
+  text-decoration: underline var(--color-box);
 }
