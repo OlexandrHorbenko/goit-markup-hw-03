@@ -66,7 +66,9 @@ img {
 .section {
   padding: 94px 0;
 }
+
 /* !!!!!!!!!!HEADER!!!!!!!!!! */
+
 .header {
   background-color: var(--gray-white);
   border-bottom: 1px solid var(--ramka-top);
@@ -167,6 +169,7 @@ img {
 
 /* !!!!!!!!!!!!!MAIN!!!!!!!!!!!!!!! */
 /*!!!!!!!!!!! SECTION-1!!!!!!!!!! */
+
 .slogan {
   background-color: var(--gray-background);
   text-align: center;
