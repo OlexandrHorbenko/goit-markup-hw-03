@@ -463,7 +463,6 @@ img {
   display: block;
   margin-top: 4px;
 }
-
 .hero-prof:hover,
 .hero-prof:focus {
   text-decoration: underline var(--color-box);
