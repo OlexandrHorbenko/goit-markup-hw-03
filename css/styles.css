@@ -94,13 +94,6 @@ img {
   color: var(--gray-blue);
 }
 
-.header-logo:hover,
-.header-logo:focus,
-.header-logo-part:hover,
-.header-logo-part:focus {
-  text-decoration: underline var(--gray-blue);
-}
-
 .header-navigation {
   display: flex;
 }
@@ -123,7 +116,6 @@ img {
 .header-link:hover,
 .header-link:focus {
   color: var(--gray-blue);
-  text-decoration: underline var(--gray-blue);
 }
 
 .current {
@@ -148,7 +140,6 @@ img {
 .header-tel:hover,
 .header-tel:focus {
   color: var(--gray-blue);
-  text-decoration: underline var(--gray-blue);
 }
 
 .header-mail {
@@ -164,7 +155,6 @@ img {
 .header-mail:hover,
 .header-mail:focus {
   color: var(--gray-blue);
-  text-decoration: underline var(--gray-blue);
 }
 
 /* !!!!!!!!!!!!!MAIN!!!!!!!!!!!!!!! */
@@ -212,7 +202,6 @@ img {
 .slogan-btn:hover,
 .slogan-btn:focus {
   background-color: var(--gray-blue-button);
-  text-decoration: underline var(--gray-blue);
 }
 
 /* !!!!!!!!!!SECTION-2 !!!!!!!!!!*/
@@ -236,7 +225,7 @@ img {
 }
 
 .experience-item {
-  flex-basis: calc((100%-90px) \4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .experience-title {
@@ -277,7 +266,7 @@ img {
 }
 
 .what-we-do-icon {
-  flex-basis: calc((100%-60px) \3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 /*!!!!!!!!!!!!!SECTION-4!!!!!!!!! */
@@ -306,7 +295,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--gray-white);
-  flex-basis: calc((100%-90px) \4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .team-hero {
@@ -333,6 +322,8 @@ img {
 /* !!!!!!!!!!!FOOTER!!!!!!!! */
 .footer {
   background-color: var(--footer-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -342,24 +333,14 @@ img {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--gray-white);
-  padding-top: 60px;
-  display: block;
 }
 
 .footer-logo-part {
   color: var(--gray-blue);
 }
 
-.footer-logo:hover,
-.footer-logo:focus,
-.footer-logo-part:hover,
-.footer-logo-part:focus {
-  text-decoration: underline var(--gray-blue);
-}
-
-.footer-link {
+.footer-adress {
   margin-top: 20px;
-  padding-bottom: 60px;
 }
 
 .footer-address {
@@ -374,7 +355,14 @@ img {
 .footer-address:hover,
 .footer-address:focus {
   color: var(--gray-blue);
-  text-decoration: underline var(--gray-blue);
+}
+
+.footer-list-link {
+  margin-bottom: 9px;
+}
+
+.footer-list-link:last-child {
+  margin-bottom: 0;
 }
 
 .footer-list {
@@ -383,14 +371,12 @@ img {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--footer-address);
-  margin-top: 9px;
   display: block;
 }
 
 .footer-list:hover,
 .footer-list:focus {
   color: var(--gray-blue);
-  text-decoration: underline var(--gray-blue);
 }
 
 /* !!!!!!!!!!!!!PORTFOLIO!!!!!!!!!!!!! */
@@ -398,9 +384,8 @@ img {
 
 .hero-list-btn {
   display: flex;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   justify-content: center;
-  min-width: 575px;
   gap: 8px;
 }
 
@@ -417,7 +402,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--gray-black);
-  flex-basis: calc((100%-32px) \5);
   padding: 6px 22px;
   min-width: 73px;
 }
@@ -426,13 +410,11 @@ img {
 .hero-btn:focus {
   background-color: var(--gray-blue);
   color: var(--gray-white);
-  text-decoration: underline var(--gray-blue);
 }
 
 .current-btn {
   background-color: var(--gray-blue);
   color: var(--gray-white);
-  text-decoration: underline var(--gray-blue);
 }
 
 /*!!!!!!!!!!!!!!!IMAGES!!!!!!!!!!!!!*/
@@ -445,13 +427,21 @@ img {
 
 .hero-link {
   background-color: var(--gray-white);
-  flex-basis: calc((100%-66px) \3);
+  flex-basis: calc((100% - 66px) / 3);
 }
 
 .hero-about {
   padding: 20px 24px;
   min-width: 322px;
-  border: 1px solid var(--color-box);
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: var(--color-box);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-box);
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: var(--color-box);
 }
 
 .hero-title {
@@ -463,11 +453,6 @@ img {
   display: block;
 }
 
-.hero-title:hover,
-.hero-title:focus {
-  text-decoration: underline var(--gray-blue);
-}
-
 .hero-p {
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -476,11 +461,3 @@ img {
   display: block;
   margin-top: 4px;
 }
-
-.hero-p:hover,
-.hero-p:focus {
-  text-decoration: underline var(--gray-blue);
-}
-
-
-
