@@ -211,7 +211,9 @@ img {
   background-color: var(--gray-blue-button);
   text-decoration: underline var(--gray-blue);
 }
+
 /* !!!!!!!!!!SECTION-2 !!!!!!!!!!*/
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -275,7 +277,8 @@ img {
   flex-basis: calc((100%-60px) \3);
 }
 
-/* !!!!!!!!!!!!!SECTION-4!!!!!!!!! */
+/*!!!!!!!!!!!!!SECTION-4!!!!!!!!! */
+
 .team {
   background-color: var(--team-background);
 }
