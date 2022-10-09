@@ -449,6 +449,12 @@ img {
   color: var(--gray-black);
   display: block;
 }
+
+.hero-title:hover,
+.hero-title:focus {
+  text-decoration: underline var(--gray-blue);
+}
+
 .hero-prof {
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -456,4 +462,9 @@ img {
   color: var(--maine_color);
   display: block;
   margin-top: 4px;
+}
+
+.hero-prof:hover,
+.hero-prof:focus {
+  text-decoration: underline var(--gray-blue);
 }
